@@ -103,6 +103,5 @@ We can see the freezing the first layers does not work very well. But if we
 initialize the weights with those learned on MIT-BIH and train all layers we are
 able to improve the performance compared to training from scratch.
 
-Code to reproduce the results is available at :
-[https://github.com/CVxTz/ECG_Heartbeat_Classification](https://github.com/CVxTz/ECG_Heartbeat_Classification)
+
 
