@@ -1,3 +1,6 @@
+Need virtual environment(venv)
+Python 3.7
+
 absl-py (0.7.1)
 astor (0.8.0)
 beautifulsoup4 (4.7.1)
