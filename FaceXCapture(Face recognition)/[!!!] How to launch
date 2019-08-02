@@ -1,0 +1,10 @@
+Create folder with your name and Telegram_id and separate it with " _ " (like: Name_00000001):
+After this, input this commands (on console)
+
+1. python data_preprocess.py
+2. python train_main.py
+3. python main2.py
+
+To launch telegram bot:
+
+1.python telegram.py
