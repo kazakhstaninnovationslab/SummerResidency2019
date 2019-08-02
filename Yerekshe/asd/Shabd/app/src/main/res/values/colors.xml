@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#7448ff</color>
+    <color name="colorPrimaryDark">#7448ff</color>
+    <color name="colorAccent">#216680</color>
+    <color name="cardBackground">#1330CE</color>
+    <color name="white">#ffffff</color>
+    <color name="meaningBackground">#FFFFFF</color>
+    <color name="floatingButton">#7448ff</color>
+    <color name="searchBackground">#FF9800</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="popup_background">#DD1F2833</color>
+    <color name="green">#0EF70E</color>
+    <color name="red">#FF0000</color>
+    <color name="grey">#D3D3D3</color>
+
+</resources>
