@@ -1,0 +1,133 @@
+.form-container{
+    line-height: 1;
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+    position: absolute;
+    top: 8vh;
+    background: #FFFFFF;
+    width: 270px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(154, 157, 31, 0.29);
+}
+
+#yo{
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+    position: absolute;
+    background: #FFFFFF;
+    width: 400px;
+    height: 600px;
+    left: 50%;
+    top: 35vh;
+    transform: translate(-50%, -35%);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(154, 157, 31, 0.29);
+}
+
+.navigation-bar {
+    width: 200%;  /* i'm assuming full width */
+    height: 100px; /* change it to desired width */
+}
+.img {
+    /*display: inline-block;*/
+    vertical-align: top;
+    width: 10%;
+    height: 100%;
+    margin-right: 150px;
+    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar > a {
+    display: inline-block;
+    /*vertical-align: center;*/
+    margin-right: 100px;
+    margin-top: 0px;
+    padding-right: 40px;
+    height: 60px;        /* if you want it to take the full height of the bar */
+    line-height: 50px;    /* if you want it vertically middle of the navbar */
+    color: #7448ff;
+}
+
+h2{
+    text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  display:inline-block;
+   margin-left: 57px;
+}
+
+#first_name, #last_name, #email,
+#password1, #password2, #username1{
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.form-control{
+    margin-top: 5px;
+    color: #7448ff;
+}
+
+h2.active {
+  color: #7448ff;
+  border-bottom: 2px solid #7448ff;
+}
+
+.form-check{
+    margin-top: 10px;
+}
+
+h2.active1 {
+  color: #7448ff;
+  border-bottom: 2px solid #7448ff;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+/*.active1{*/
+    /*text-align: center;*/
+  /*font-size: 16px;*/
+  /*font-weight: 600;*/
+  /*display:inline-block;*/
+   /*margin-left: 57px;*/
+/*}*/
+
+#icon1{
+    width: 80px;
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+
+#icon{
+    width: 80px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+.btn.btn-primary{
+    -webkit-box-shadow: 0 15px 75px 0 #bbccdd;
+    margin-top: 20px;
+    margin-left: 65px;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+/*.wrapper{*/
+    /*background-image: url("/media/online.jpg");*/
+    /*height: 500px;*/
+    /*background-position: center;*/
+/*}*/
+
+.wrapper{
+    margin-top: 500px;
+}
+
+.colors{
+}

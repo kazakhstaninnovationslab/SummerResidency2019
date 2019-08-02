@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} test {% endblock %}
+{% block body %}
+
+<section>
+
+</section>
+
+
+    <form class="form-container2">
+
+        <h1>Autism Spectrum Disorder</h1>
+
+        <div class="row">
+            What is the age of your child?
+          <input class="form-control" type="text">
+        </div>
+        <div class="row">
+            Gender:
+          <input class="form-control" type="text">
+        </div>
+        <div class="row">
+            Does your child look at you when you call his/her name?
+        <input class="form-control" type="text">
+        </div>
+        <div class="row">
+            How easy is it for you to get eye contact with your child?
+          <input class="form-control" type="text">
+        </div>
+        <div class="row">
+            Does your child point to indicate that s/he wants something? (e.g. a toy that is out of reach)
+          <input class="form-control" type="text">
+        </div>
+        <div class="row">
+            Does your child point to share interest with you? (e.g. pointing at an interesting sight)
+          <input class="form-control" type="text">
+        </div>
+        <div class="row">
+            Does your child pretend? (e.g. care for dolls, talk on a toy phone)
+          <input class="form-control" type="text">
+        </div>
+        <div class="row">
+            Does your child follow where you’re looking?
+          <input class="form-control" type="text">
+        </div>
+        <div class="row">
+            If you or someone else in the family is visibly upset, does your child show signs of wan9ng to comfort them? (e.g. stroking hair, hugging them)
+          <input class="form-control" type="text">
+        </div>
+        <div class="row">
+            Would you describe your child’s first words as:
+          <input class="form-control" type="text">
+        </div>
+        <div class="row">
+            Does your child use simple gestures? (e.g. wave goodbye)
+          <input class="form-control" type="text">
+        </div>
+        <div class="bottom">
+            <button class="btn btn-primary2" style="background-color: #7448ff"><a href="{% url 'report' %}">Submit</a></button>
+        </div>
+    </form>
+
+{% endblock %}

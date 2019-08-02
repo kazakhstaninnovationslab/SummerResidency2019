@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} login {% endblock %}
+{% block body %}
+
+{#    <nav class="navigation-bar">#}
+{##}
+{#        <img class= "img" src="/media/facebook_cover_photo_1.png" alt="">#}
+{#        <a href="{% url 'home' %}" class="active" >Home</a>#}
+{#        <a href="{% url 'register' %}" class="active">Sign up</a>#}
+{#        <a href="/admin/" class="active">Administration</a>#}
+{#        <a href="{% url 'login' %}"></a>#}
+{#        <a href="{% url 'register' %}"><img src="/media/145849.svg" class="avatar" alt="Avatar"> </a>#}
+{##}
+{#    </nav>#}
+
+<header class="login_back">
+</header>
+
+     <section class = 'container-fluid'>
+        <section class="row justify-content-center">
+            <section class="col-12 col-sm-6 col-md-3">
+
+                <form class="form-container4" method="post">
+                    {% csrf_token %}
+                    <h2 class="active"> Sign In </h2>
+
+                    <div class="fadeIn first">
+                      <img src="/media/145849.svg" id="icon" alt="User Icon" />
+                    </div>
+                      <div class="row">
+                        <label for="username"></label>
+                        <input id = "username" class="form-control" type="text" name="username" placeholder="Enter username">
+                      </div>
+                      <div class="row">
+                        <label for="password"></label>
+                        <input id = "password" class="form-control" type="password" name="password" placeholder="password">
+                      </div>
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <div class="bottom">
+                        <button class="btn btn-primary" style="background-color: #7448ff">Submit</button>
+                      </div>
+                </form>
+            </section>
+        </section>
+    </section>
+{% endblock %}

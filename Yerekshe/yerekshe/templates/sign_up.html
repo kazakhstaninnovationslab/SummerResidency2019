@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} sign up {% endblock %}
+{% block body %}
+<header class="signupback">
+{#            <nav class="navigation-bar">#}
+{#                <img class= "img" src="/media/facebook_cover_photo_1.png" alt="">#}
+{#                <a href="{% url 'home' %}" class="active">Home</a>#}
+{#                <a href="{% url 'login' %}" class="active">Login</a>#}
+{#                <a href="/admin/" class="active">Administration</a>#}
+{#                <a href="{% url 'login' %}"></a>#}
+{#                <img src="/media/145849.svg" class="avatar" alt="Avatar">#}
+{#            </nav>#}
+
+
+ <div class = 'container-fluid'>
+        <div class="row justify-content-center">
+            <div class="col-8 col-sm-3 col-md-3">
+                <form id="yo" class="form-container" method="post">
+                    {% csrf_token %}
+                    <h2 class="active1"> Create Account </h2>
+                    <div class="fadeIn first">
+                      <img src="/media/145849.svg" id="icon1" alt="User Icon" />
+                    </div>
+
+                      <div class="row">
+                        <label for="first_name" id="first_name">{{ user_form.first_name }}</label>
+{#                        <input id = "first_name" class="form-control" type="text" name="first_name" placeholder="First Name">#}
+                      </div>
+                      <div class="row">
+                        <label for="last_name" id="last_name">{{ user_form.last_name }}</label>
+{#                        <input id = "last_name" class="form-control" type="text" name="last_name" placeholder="Last Name">#}
+                      </div>
+                      <div class="row">
+                        <label for="email" id="email">{{ user_form.email }}</label>
+{#                        <input id = "email" class="form-control" type="email" name="email" placeholder="E-mail">#}
+                      </div>
+                      <div class="row">
+                        <label for="username1" id="username1">{{ user_form.username }}</label>
+{#                        <input id = "username1" class="form-control" type="text" name="username1" placeholder="Username">#}
+                      </div>
+                      <div class="row">
+                        <label for="password1" id="password1">{{ user_form.password }}</label>
+{#                        <input id = "password1" class="form-control" type="password" name="password1" placeholder="Password">#}
+                      </div>
+                      <div class="row">
+                        <label for="password2" id="password2">{{ user_form.confirm_password }}</label>
+{#                        <input id = "password2" class="form-control" type="password" name="password2" placeholder="Confirm your password">#}
+                      </div>
+
+                      <div class="bottom">
+                        <button class="btn btn-primary" style="background-color: #7448ff">Submit</button>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+{% endblock %}

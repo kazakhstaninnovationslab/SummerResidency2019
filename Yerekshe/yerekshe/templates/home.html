@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} home {% endblock %}
+{% block body %}
+
+<body>
+    <header>
+
+        <div class="wrapper">
+            <ul class="nav-area">
+                <li><a href="{% url 'test' %}">Test</a></li>
+            </ul>
+        </div>
+
+</header>
+
+<div class="section section-team text-center">
+            <div class="container">
+                <h2 class="title_h2">Here is our team </h2>
+                <div class="team">
+                    <div class="row">
+                        <div class="col">
+                            <div class="team-player">
+                                <img src="/media/Sultan.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+                                <h4 class="title">Sultan Akhmetbek</h4>
+                                <p class="category text-primary">Django developer/DS</p>
+                                <p class="description">You can write to us for any suggestions. Your feedback is Welcome.</p>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="team-player">
+                                <img src="/media/Dana.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+                                <h4 class="title">Dana Yerlan</h4>
+                                <p class="category text-primary">Mobile developer</p>
+                                <p class="description">You can write to us for any suggestions. Your feedback is Welcome.</p>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="team-player">
+                                <img src="/media/Alibek.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid  img-raised">
+                                <h4 class="title">Alibek Kaliyev</h4>
+                                <p class="category text-primary">Data Scientist</p>
+                                <p class="description">You can write to us for any suggestions. Your feedback is Welcome.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer footer-default">
+            <div class="container">
+
+                <div class="copyright">
+                   &copy; 2019
+                   Coded by ManGo
+                </div>
+            </div>
+        </footer>
+
+</body>
+{% endblock %}
+
+
+
